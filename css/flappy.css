@@ -64,3 +64,15 @@
     font-size: 70px;
     z-index: 100;
 }
+
+@media(max-width:500px) {
+    [wm-flappy] {
+        position: relative;
+        border: 5px solid dodgerblue;
+        height: 200px;
+        width: calc(100% - 10px);
+        margin: 15px;
+        background-color: deepskyblue;
+        overflow: hidden;
+    }
+}
